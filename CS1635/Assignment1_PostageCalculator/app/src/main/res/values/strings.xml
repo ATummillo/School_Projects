@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Postage Calculator</string>
+    <string name="edit_weight">Enter weight here in oz \n(weight must be greater than 0 oz and at most 13 oz)</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="package_prompt">Please select a package type below:</string>
+    <string name="calculated_cost">Calculated cost is...</string>
+    <string name="invalid_input">Your weight input is invalid, please try again.</string>
+    <string name="letter_oversize">Letters cannot weigh over 3.5 oz, sorry.</string>
+
+
+    <string-array name="package_types">
+        <item>Letter</item>
+        <item>Large envelope</item>
+        <item>Package</item>
+    </string-array>
+
+</resources>

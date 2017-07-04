@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment2_Scribbler</string>
+    <string name="options">Color Options</string>
+    <string name="clear">Clear Drawing</string>
+    <string name="paint_prompt">Please select a paint color</string>
+    <string name="change">Change Color</string>
+
+    <string-array name="paint_types">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+</resources>

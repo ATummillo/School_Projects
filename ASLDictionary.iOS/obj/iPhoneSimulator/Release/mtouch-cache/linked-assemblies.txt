@@ -1,0 +1,7 @@
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Core.dll
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/mscorlib.dll
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/ASLDictionary.iOS.exe
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Xml.dll
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.dll
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll

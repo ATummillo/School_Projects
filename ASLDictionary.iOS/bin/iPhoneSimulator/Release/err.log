@@ -1,0 +1,167 @@
+objc[5323]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x11e084ca8) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x11dfb6cd0). One of the two will be used. Which one is undefined.
+objc[5323]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11bd09cc0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11bb206f0). One of the two will be used. Which one is undefined.
+2017-04-14 18:02:44.531 ASLDictionary.iOS[5323:179266] -[ViewController _setViewDelegate:]: unrecognized selector sent to instance 0x7ff255e284c0
+2017-04-14 18:02:44.536 ASLDictionary.iOS[5323:179266] Xamarin.iOS: Received unhandled ObjectiveC exception: NSInvalidArgumentException -[ViewController _setViewDelegate:]: unrecognized selector sent to instance 0x7ff255e284c0
+2017-04-14 18:02:44.550 ASLDictionary.iOS[5323:179266] 
+Unhandled Exception:
+Foundation.MonoTouchException: Objective-C exception thrown.  Name: NSInvalidArgumentException Reason: -[ViewController _setViewDelegate:]: unrecognized selector sent to instance 0x7ff255e284c0
+Native stack trace:
+	0   CoreFoundation                      0x000000011047eb0b __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x0000000110ad7141 objc_exception_throw + 48
+	2   CoreFoundation                      0x00000001104ee134 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x0000000110405840 ___forwarding___ + 1024
+	4   CoreFoundation                      0x00000001104053b8 _CF_forwarding_prep_0 + 120
+	5   UIKit                               0x0000000106336874 +[UIViewController setViewController:forView:] + 41
+	6   UIKit                               0x000000010632e50c -[UIViewController setView:] + 503
+	7   Foundation                          0x0000000107ea4e8b -[NSObject(NSKeyValueCoding) setValue:forKey:] + 292
+	8   UIKit                               0x0000000106326644 -[UIViewController setValue:forKey:] + 87
+	9   UIKit                               0x00000001065936b9 -[UIRuntimeOutletConnection connect] + 109
+	10  CoreFoundation                      0x0000000110424e8d -[NSArray makeObjectsPerformSelector:] + 269
+	11  UIKit                               0x000000010659206f -[UINib instantiateWithOwner:options:] + 1856
+	12  UIKit                               0x000000010632cc73 -[UIViewController _loadViewFromNibNamed:bundle:] + 381
+	13  UIKit                               0x000000010632d589 -[UIViewController loadView] + 177
+	14  UIKit                               0x000000010632d8ba -[UIViewController loadViewIfRequired] + 195
+	15  UIKit                               0x000000010636cb1c -[UINavigationController _layoutViewController:] + 56
+	16  UIKit                               0x000000010636d3fa -[UINavigationController _updateScrollViewFromViewController:toViewController:] + 466
+	17  UIKit                               0x000000010636d56b -[UINavigationController _startTransition:fromViewController:toViewController:] + 127
+	18  UIKit                               0x000000010636e6b3 -[UINavigationController _startDeferredTransitionIfNeeded:] + 843
+	19  UIKit                               0x000000010636f7f1 -[UINavigationController __viewWillLayoutSubviews] + 58
+	20  UIKit                               0x00000001065612bc -[UILayoutContainerView layoutSubviews] + 231
+	21  UIKit                               0x000000010624e20b -[UIView(CALayerDelegate) layoutSublayersOfLayer:] + 1268
+	22  QuartzCore                          0x000000010b55f904 -[CALayer layoutSublayers] + 146
+	23  QuartzCore                          0x000000010b553526 _ZN2CA5Layer16layout_if_neededEPNS_11TransactionE + 370
+	24  QuartzCore                          0x000000010b5533a0 _ZN2CA5Layer28layout_and_display_if_neededEPNS_11TransactionE + 24
+	25  QuartzCore                          0x000000010b4e2e92 _ZN2CA7Context18commit_transactionEPNS_11TransactionE + 294
+	26  QuartzCore                          0x000000010b50f130 _ZN2CA11Transaction6commitEv + 468
+	27  QuartzCore                          0x000000010b50fb37 _ZN2CA11Transaction17observer_callbackEP19__CFRunLoopObservermPv + 115
+	28  CoreFoundation                      0x0000000110424717 __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__ + 23
+	29  CoreFoundation                      0x0000000110424687 __CFRunLoopDoObservers + 391
+	30  CoreFoundation                      0x0000000110409038 CFRunLoopRunSpecific + 440
+	31  UIKit                               0x000000010618502f -[UIApplication _run] + 468
+	32  UIKit                               0x000000010618b0d4 UIApplicationMain + 159
+	33  ???                                 0x0000000123b54ac5 0x0 + 4894051013
+	34  ???                                 0x0000000123b54930 0x0 + 4894050608
+
+  at ObjCRuntime.Runtime.ThrowNSException (System.IntPtr ns_exception) [0x0000b] in <4692b8633c404c758160904e5dff77ed>:0 
+  at ObjCRuntime.Runtime.throw_ns_exception (System.IntPtr exc) [0x00000] in <4692b8633c404c758160904e5dff77ed>:0 
+  at (wrapper native-to-managed) ObjCRuntime.Runtime:throw_ns_exception (intptr)
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <4692b8633c404c758160904e5dff77ed>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <4692b8633c404c758160904e5dff77ed>:0 
+  at ASLDictionary.iOS.Application.Main (System.String[] args) [0x00000] in <611a4670803e4788aa40e3a9af31a210>:0 	0   CoreFoundation                      0x000000011047eb0b __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x0000000110ad7141 objc_exception_throw + 48
+	2   CoreFoundation                      0x00000001104ee134 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x0000000110405840 ___forwarding___ + 1024
+	4   CoreFoundation                      0x00000001104053b8 _CF_forwarding_prep_0 + 120
+	5   UIKit                               0x0000000106336874 +[UIViewController setViewController:forView:] + 41
+	6   UIKit                               0x000000010632e50c -[UIViewController setView:] + 503
+	7   Foundation                          0x0000000107ea4e8b -[NSObject(NSKeyValueCoding) setValue:forKey:] + 292
+	8   UIKit                               0x0000000106326644 -[UIViewController setValue:forKey:] + 87
+	9   UIKit                               0x00000001065936b9 -[UIRuntimeOutletConnection connect] + 109
+	10  CoreFoundation                      0x0000000110424e8d -[NSArray makeObjectsPerformSelector:] + 269
+	11  UIKit                               0x000000010659206f -[UINib instantiateWithOwner:options:] + 1856
+	12  UIKit                               0x000000010632cc73 -[UIViewController _loadViewFromNibNamed:bundle:] + 381
+	13  UIKit                               0x000000010632d589 -[UIViewController loadView] + 177
+	14  UIKit                               0x000000010632d8ba -[UIViewController loadViewIfRequired] + 195
+	15  UIKit                               0x000000010636cb1c -[UINavigationController _layoutViewController:] + 56
+	16  UIKit                               0x000000010636d3fa -[UINavigationController _updateScrollViewFromViewController:toViewController:] + 466
+	17  UIKit                               0x000000010636d56b -[UINavigationController _startTransition:fromViewController:toViewController:] + 127
+	18  UIKit                               0x000000010636e6b3 -[UINavigationController _startDeferredTransitionIfNeeded:] + 843
+	19  UIKit                               0x000000010636f7f1 -[UINavigationController __viewWillLayoutSubviews] + 58
+	20  UIKit                               0x00000001065612bc -[UILayoutContainerView layoutSubviews] + 231
+	21  UIKit                               0x000000010624e20b -[UIView(CALayerDelegate) layoutSublayersOfLayer:] + 1268
+	22  QuartzCore                          0x000000010b55f904 -[CALayer layoutSublayers] + 146
+	23  QuartzCore                          0x000000010b553526 _ZN2CA5Layer16layout_if_neededEPNS_11TransactionE + 370
+	24  QuartzCore                          0x000000010b5533a0 _ZN2CA5Layer28layout_and_display_if_neededEPNS_11TransactionE + 24
+	25  QuartzCore                          0x000000010b4e2e92 _ZN2CA7Context18commit_transactionEPNS_11TransactionE + 294
+	26  QuartzCore                          0x000000010b50f130 _ZN2CA11Transaction6commitEv + 468
+	27  QuartzCore                          0x000000010b50fb37 _ZN2CA11Transaction17observer_callbackEP19__CFRunLoopObservermPv + 115
+	28  CoreFoundation                      0x0000000110424717 __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__ + 23
+	29  CoreFoundation                      0x0000000110424687 __CFRunLoopDoObservers + 391
+	30  CoreFoundation                      0x0000000110409038 CFRunLoopRunSpecific + 440
+	31  UIKit                               0x000000010618502f -[UIApplication _run] + 468
+	32  UIKit                               0x000000010618b0d4 UIApplicationMain + 159
+	33  ???                                 0x0000000123b54ac5 0x0 + 4894051013
+	34  ???                                 0x0000000123b54930 0x0 + 4894050608
+
+2017-04-14 18:02:44.552 ASLDictionary.iOS[5323:179266] Unhandled managed exception:
+Objective-C exception thrown.  Name: NSInvalidArgumentException Reason: -[ViewController _setViewDelegate:]: unrecognized selector sent to instance 0x7ff255e284c0
+Native stack trace:
+	0   CoreFoundation                      0x000000011047eb0b __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x0000000110ad7141 objc_exception_throw + 48
+	2   CoreFoundation                      0x00000001104ee134 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x0000000110405840 ___forwarding___ + 1024
+	4   CoreFoundation                      0x00000001104053b8 _CF_forwarding_prep_0 + 120
+	5   UIKit                               0x0000000106336874 +[UIViewController setViewController:forView:] + 41
+	6   UIKit                               0x000000010632e50c -[UIViewController setView:] + 503
+	7   Foundation                          0x0000000107ea4e8b -[NSObject(NSKeyValueCoding) setValue:forKey:] + 292
+	8   UIKit                               0x0000000106326644 -[UIViewController setValue:forKey:] + 87
+	9   UIKit                               0x00000001065936b9 -[UIRuntimeOutletConnection connect] + 109
+	10  CoreFoundation                      0x0000000110424e8d -[NSArray makeObjectsPerformSelector:] + 269
+	11  UIKit                               0x000000010659206f -[UINib instantiateWithOwner:options:] + 1856
+	12  UIKit                               0x000000010632cc73 -[UIViewController _loadViewFromNibNamed:bundle:] + 381
+	13  UIKit                               0x000000010632d589 -[UIViewController loadView] + 177
+	14  UIKit                               0x000000010632d8ba -[UIViewController loadViewIfRequired] + 195
+	15  UIKit                               0x000000010636cb1c -[UINavigationController _layoutViewController:] + 56
+	16  UIKit                               0x000000010636d3fa -[UINavigationController _updateScrollViewFromViewController:toViewController:] + 466
+	17  UIKit                               0x000000010636d56b -[UINavigationController _startTransition:fromViewController:toViewController:] + 127
+	18  UIKit                               0x000000010636e6b3 -[UINavigationController _startDeferredTransitionIfNeeded:] + 843
+	19  UIKit                               0x000000010636f7f1 -[UINavigationController __viewWillLayoutSubviews] + 58
+	20  UIKit                               0x00000001065612bc -[UILayoutContainerView layoutSubviews] + 231
+	21  UIKit                               0x000000010624e20b -[UIView(CALayerDelegate) layoutSublayersOfLayer:] + 1268
+	22  QuartzCore                          0x000000010b55f904 -[CALayer layoutSublayers] + 146
+	23  QuartzCore                          0x000000010b553526 _ZN2CA5Layer16layout_if_neededEPNS_11TransactionE + 370
+	24  QuartzCore                          0x000000010b5533a0 _ZN2CA5Layer28layout_and_display_if_neededEPNS_11TransactionE + 24
+	25  QuartzCore                          0x000000010b4e2e92 _ZN2CA7Context18commit_transactionEPNS_11TransactionE + 294
+	26  QuartzCore                          0x000000010b50f130 _ZN2CA11Transaction6commitEv + 468
+	27  QuartzCore                          0x000000010b50fb37 _ZN2CA11Transaction17observer_callbackEP19__CFRunLoopObservermPv + 115
+	28  CoreFoundation                      0x0000000110424717 __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__ + 23
+	29  CoreFoundation                      0x0000000110424687 __CFRunLoopDoObservers + 391
+	30  CoreFoundation                      0x0000000110409038 CFRunLoopRunSpecific + 440
+	31  UIKit                               0x000000010618502f -[UIApplication _run] + 468
+	32  UIKit                               0x000000010618b0d4 UIApplicationMain + 159
+	33  ???                                 0x0000000123b54ac5 0x0 + 4894051013
+	34  ???                                 0x0000000123b54930 0x0 + 4894050608
+ (Foundation.MonoTouchException)
+  at ObjCRuntime.Runtime.ThrowNSException (System.IntPtr ns_exception) [0x0000b] in <4692b8633c404c758160904e5dff77ed>:0 
+  at ObjCRuntime.Runtime.throw_ns_exception (System.IntPtr exc) [0x00000] in <4692b8633c404c758160904e5dff77ed>:0 
+  at (wrapper native-to-managed) ObjCRuntime.Runtime:throw_ns_exception (intptr)
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <4692b8633c404c758160904e5dff77ed>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <4692b8633c404c758160904e5dff77ed>:0 
+  at ASLDictionary.iOS.Application.Main (System.String[] args) [0x00000] in <611a4670803e4788aa40e3a9af31a210>:0 
+2017-04-14 18:02:44.552 ASLDictionary.iOS[5323:179266] critical: Stacktrace:
+
+2017-04-14 18:02:44.552 ASLDictionary.iOS[5323:179266] critical: 
+Native stacktrace:
+
+2017-04-14 18:02:44.642 ASLDictionary.iOS[5323:179266] critical: 	0   ASLDictionary.iOS                   0x0000000104e2a44d mono_handle_native_sigsegv + 253
+2017-04-14 18:02:44.643 ASLDictionary.iOS[5323:179266] critical: 	1   libsystem_platform.dylib            0x0000000111c85b3a _sigtramp + 26
+2017-04-14 18:02:44.643 ASLDictionary.iOS[5323:179266] critical: 	2   ???                                 0x0000000105379574 0x0 + 4382496116
+2017-04-14 18:02:44.643 ASLDictionary.iOS[5323:179266] critical: 	3   libsystem_c.dylib                   0x00000001119f488f abort + 127
+2017-04-14 18:02:44.643 ASLDictionary.iOS[5323:179266] critical: 	4   ASLDictionary.iOS                   0x0000000104fa6af2 xamarin_unhandled_exception_handler + 34
+2017-04-14 18:02:44.644 ASLDictionary.iOS[5323:179266] critical: 	5   ASLDictionary.iOS                   0x0000000104e84094 mono_invoke_unhandled_exception_hook + 148
+2017-04-14 18:02:44.644 ASLDictionary.iOS[5323:179266] critical: 	6   ASLDictionary.iOS                   0x0000000104e2a1b2 mono_handle_exception_internal + 4626
+2017-04-14 18:02:44.644 ASLDictionary.iOS[5323:179266] critical: 	7   ASLDictionary.iOS                   0x0000000104e28f98 mono_handle_exception + 24
+2017-04-14 18:02:44.644 ASLDictionary.iOS[5323:179266] critical: 	8   ASLDictionary.iOS                   0x0000000104da631f mono_amd64_throw_exception + 143
+2017-04-14 18:02:44.644 ASLDictionary.iOS[5323:179266] critical: 	9   ???                                 0x0000000123a909e7 0x0 + 4893247975
+2017-04-14 18:02:44.645 ASLDictionary.iOS[5323:179266] critical: 	10  ???                                 0x0000000123b12ef3 0x0 + 4893781747
+2017-04-14 18:02:44.645 ASLDictionary.iOS[5323:179266] critical: 	11  CoreFoundation                      0x00000001104e793f __handleUncaughtException + 751
+2017-04-14 18:02:44.645 ASLDictionary.iOS[5323:179266] critical: 	12  libobjc.A.dylib                     0x0000000110ad73bb _ZL15_objc_terminatev + 94
+2017-04-14 18:02:44.645 ASLDictionary.iOS[5323:179266] critical: 	13  libc++abi.dylib                     0x00000001112a3f29 _ZSt11__terminatePFvvE + 8
+2017-04-14 18:02:44.646 ASLDictionary.iOS[5323:179266] critical: 	14  libc++abi.dylib                     0x00000001112a3bbe __cxa_rethrow + 99
+2017-04-14 18:02:44.646 ASLDictionary.iOS[5323:179266] critical: 	15  libobjc.A.dylib                     0x0000000110ad72dc objc_exception_rethrow + 40
+2017-04-14 18:02:44.646 ASLDictionary.iOS[5323:179266] critical: 	16  CoreFoundation                      0x0000000110409096 CFRunLoopRunSpecific + 534
+2017-04-14 18:02:44.646 ASLDictionary.iOS[5323:179266] critical: 	17  UIKit                               0x000000010618502f -[UIApplication _run] + 468
+2017-04-14 18:02:44.646 ASLDictionary.iOS[5323:179266] critical: 	18  UIKit                               0x000000010618b0d4 UIApplicationMain + 159
+2017-04-14 18:02:44.647 ASLDictionary.iOS[5323:179266] critical: 	19  ???                                 0x0000000123b54ac5 0x0 + 4894051013
+2017-04-14 18:02:44.647 ASLDictionary.iOS[5323:179266] critical: 	20  ???                                 0x0000000123b54930 0x0 + 4894050608
+2017-04-14 18:02:44.647 ASLDictionary.iOS[5323:179266] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

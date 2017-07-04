@@ -1,0 +1,10 @@
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/optimized/meh2.png
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/optimized/
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/bin/iPhoneSimulator/Release/ASLDictionary.iOS.exe.mdb
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/bin/iPhoneSimulator/Release/ASLDictionary.iOS.exe
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/ASLDictionary.iOS.exe
+/Users/GLaD0S/Documents/Git/ASLDictionary/ASLDictionary/ASLDictionary.iOS/obj/iPhoneSimulator/Release/ASLDictionary.iOS.exe.mdb

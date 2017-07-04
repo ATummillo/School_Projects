@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/LaunchScreen.storyboardc/Info.plist">
+      <LogicalName>LaunchScreen.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib">
+      <LogicalName>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/3714-view-3715.nib">
+      <LogicalName>Main.storyboardc/3714-view-3715.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/4323-view-4324.nib">
+      <LogicalName>Main.storyboardc/4323-view-4324.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/4332-view-4333.nib">
+      <LogicalName>Main.storyboardc/4332-view-4333.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/4365-view-4366.nib">
+      <LogicalName>Main.storyboardc/4365-view-4366.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/ASL0101Controller.nib">
+      <LogicalName>Main.storyboardc/ASL0101Controller.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/ASL0102Controller.nib">
+      <LogicalName>Main.storyboardc/ASL0102Controller.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/Info.plist">
+      <LogicalName>Main.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/UINavigationController-3730.nib">
+      <LogicalName>Main.storyboardc/UINavigationController-3730.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/UnitController.nib">
+      <LogicalName>Main.storyboardc/UnitController.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc/VideoController.nib">
+      <LogicalName>Main.storyboardc/VideoController.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhone/Debug/device-builds/iphone7.2-10.3.2/ibtool-link/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>

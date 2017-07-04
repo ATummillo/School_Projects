@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="3730" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="3713">
+            <objects>
+                <viewController id="3714" sceneMemberID="viewController" customClass="ViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3711"/>
+                        <viewControllerLayoutGuide type="bottom" id="3712"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3715">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="4178" translatesAutoresizingMaskIntoConstraints="NO" image="Images/startBackgroundNew.png" misplaced="YES">
+                                <rect key="frame" x="68" y="270" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4171" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="607" width="150" height="40"/>
+                                <state key="normal" title="ASL 0101">
+                                    <color key="titleShadowColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="4284" firstItem="4171" firstAttribute="height" constant="40"/>
+                                </constraints>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4172" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO">
+                                <rect key="frame" x="205" y="607" width="150" height="40"/>
+                                <state key="normal" title="ASL 0102" image="\">
+                                    <color key="titleShadowColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections/>
+                                <constraints>
+                                    <constraint id="4285" firstItem="4172" firstAttribute="height" constant="40"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="4273" firstItem="4171" firstAttribute="leading" secondItem="3715" secondAttribute="leading" constant="20"/>
+                            <constraint id="4276" firstItem="3712" firstAttribute="top" secondItem="4171" secondAttribute="bottom" constant="20"/>
+                            <constraint id="4277" firstItem="4171" firstAttribute="width" secondItem="4172" secondAttribute="width"/>
+                            <constraint id="4278" firstItem="4172" firstAttribute="leading" secondItem="4171" secondAttribute="trailing" constant="35"/>
+                            <constraint id="4279" firstItem="4172" firstAttribute="leading" secondItem="4171" secondAttribute="trailing" constant="35"/>
+                            <constraint id="4280" firstItem="3712" firstAttribute="top" secondItem="4172" secondAttribute="bottom" constant="20"/>
+                            <constraint id="4281" firstItem="3715" firstAttribute="trailing" secondItem="4172" secondAttribute="trailing" constant="20"/>
+                            <constraint id="4294" firstItem="4172" firstAttribute="width" secondItem="4171" secondAttribute="width"/>
+                            <constraint id="4295" firstItem="4172" firstAttribute="width" secondItem="4171" secondAttribute="width"/>
+                            <constraint id="4296" firstItem="4171" firstAttribute="width" secondItem="4172" secondAttribute="width"/>
+                            <constraint id="4297" firstItem="4172" firstAttribute="width" secondItem="4171" secondAttribute="width"/>
+                            <constraint id="4313" firstItem="4178" firstAttribute="height" secondItem="3715" secondAttribute="height"/>
+                            <constraint id="4314" firstItem="4178" firstAttribute="width" secondItem="3715" secondAttribute="width"/>
+                            <constraint id="4317" firstItem="4178" firstAttribute="centerX" secondItem="3715" secondAttribute="centerX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ClassOneButton" destination="4171" id="name-outlet-4171"/>
+                        <outlet property="ClassTwoButton" destination="4172" id="name-outlet-4172"/>
+                        <outlet property="backgroundImage" destination="4178" id="name-outlet-4178"/>
+                        <outlet property="mainNavBar" destination="3856" id="name-outlet-3856"/>
+                    </connections>
+                    <navigationItem title="Pitt ASL Dictionary" id="3856" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3716" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-871" y="-220"/>
+        </scene>
+        <scene sceneID="3729">
+            <objects>
+                <navigationController id="3730" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3732">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="4136" destination="3714" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3733" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1355" y="-225"/>
+        </scene>
+        <scene sceneID="4322">
+            <objects>
+                <tableViewController id="4323" sceneMemberID="viewController" customClass="ASL0101Controller" storyboardIdentifier="ASL0101Controller" title="ASL 0101">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4324">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="4327">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4327" id="4328">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4323" id="4325"/>
+                            <outlet property="delegate" destination="4323" id="4326"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4329" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-252" y="-213"/>
+        </scene>
+        <scene sceneID="4331">
+            <objects>
+                <tableViewController id="4332" sceneMemberID="viewController" customClass="ASL0102Controller" storyboardIdentifier="ASL0102Controller" title="ASL 0102">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4333">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="4336">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4336" id="4337">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4332" id="4334"/>
+                            <outlet property="delegate" destination="4332" id="4335"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4338" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236" y="-215"/>
+        </scene>
+        <scene sceneID="4364">
+            <objects>
+                <tableViewController id="4365" sceneMemberID="viewController" customClass="UnitController" storyboardIdentifier="UnitController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4366">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="4369">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4369" id="4370">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4365" id="4367"/>
+                            <outlet property="delegate" destination="4365" id="4368"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4371" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-244" y="546"/>
+        </scene>
+        <scene sceneID="4379">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="4380" sceneMemberID="viewController" customClass="VideoController" storyboardIdentifier="VideoController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4381" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236" y="554"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Images/startBackgroundNew.png" width="540" height="960"/>
+        <image name="background" width="540" height="960"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASLDictionary.iOS", "ASLDictionary.iOS.csproj", "{DFAF1A77-5732-4017-9D2B-50AA93CA8178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFAF1A77-5732-4017-9D2B-50AA93CA8178}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DFAF1A77-5732-4017-9D2B-50AA93CA8178}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DFAF1A77-5732-4017-9D2B-50AA93CA8178}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DFAF1A77-5732-4017-9D2B-50AA93CA8178}.Release|iPhone.Build.0 = Release|iPhone
+		{DFAF1A77-5732-4017-9D2B-50AA93CA8178}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DFAF1A77-5732-4017-9D2B-50AA93CA8178}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{DFAF1A77-5732-4017-9D2B-50AA93CA8178}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DFAF1A77-5732-4017-9D2B-50AA93CA8178}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
